@@ -62,7 +62,7 @@ def getTagversion (String oldtagVersion)
 	    
 	    
 	    Calendar now = Calendar.getInstance();
-	    currmonth = (now.get(Calendar.MONTH) +1)
+	    currmonth = 5 //(now.get(Calendar.MONTH) +1)
 	    
 	    Date date = new Date()
 	    //println date.getTime()
