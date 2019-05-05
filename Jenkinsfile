@@ -58,7 +58,7 @@ def getTagversion (String oldtagVersion)
 	    major = versionParts[0].toInteger()
 	    minor = versionParts[1].toInteger()
 	    timetag = versionParts[2].toString()
-	    this.month = timetag.substring(4,6).toInteger()
+	    this.month = 5 //timetag.substring(4,6).toInteger()
 	    
 	    
 	    Calendar now = Calendar.getInstance();
